@@ -12,7 +12,12 @@ def loop_ranger(start, stop=None, step=1):
     The look up the docs for range(), you can answer this with just the range 
     function, but we'd like you to do it the long way, probably using a loop.
     """
-    return None
+    our_numbers = []
+    live_number = start
+    while live_number < stop:
+        our_numbers.append(live_number)
+        live_number+= step
+    return our_numbers
 
 
 def lone_ranger(start, stop, step):
@@ -20,7 +25,11 @@ def lone_ranger(start, stop, step):
 
     Look up the docs for range() and wrap it in a 1:1 way
     """
-    return None
+    my_range = []
+    for i in range(start, stop, step):
+        my_range.append(i)
+    return my_range
+    
 
 
 def two_step_ranger(start, stop):
@@ -40,7 +49,17 @@ def stubborn_asker(low, high):
 
     Look up the docs for input
     """
-    return None
+    while True:
+        try:
+
+            the_input = input(f"Insert a number between {low} and {high}: ")
+            our_number = int(the_input)
+            if our-number >= low and our_number <= high:
+                return our_number
+            else:
+                print("that number is out of bounds")
+        except:
+            print("that wasn't a number")
 
 
 def not_number_rejector(message):
@@ -50,6 +69,7 @@ def not_number_rejector(message):
     (e.g. "cow", "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
+
     return None
 
 

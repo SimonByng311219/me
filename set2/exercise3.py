@@ -7,7 +7,12 @@ def is_odd(a_number):
 
     Look into modulo division using the '%' operator as one way of doing this.
     """
-    return None
+    
+    if a_number % 2 == 0:
+        check_odd_even="NO"
+    else:
+        check_odd_even="YES"
+    print (check_odd_even)
 
 
 def fix_it(moves=True, should_move=True):
