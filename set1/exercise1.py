@@ -9,4 +9,5 @@ https://design-computing.github.io/md/week1
 """
 # 👇👇 Write your code here 👇👇
 print("Hello world!")
+print("Hell, world👍")
 # 👆👆 Write your code here 👆👆
