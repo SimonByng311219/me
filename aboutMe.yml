@@ -1,9 +1,4 @@
-name: SimonB
+first-name: SimonB
 studentNumber: BVN # if you're not at UNSW, your org name, e.g. BVN
-officialEmail: __@unsw.edu.au
-contactEmail: # don't write on this line
-  firstBit: Simon.Byng # this avoids spam, the @ is implied
-  otherBit: gmail.com
-# accounts
 stackOverflowLink: https://stackoverflow.com/users/19050611/simonb
-github: SimonByng311219! 
+github: SimonByng311219
